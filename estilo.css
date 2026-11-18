@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+
+}
+.contendero-principal{
+    width: 500px;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    border-radius: 10px;
+}
+#pantalla{
+    grid-column: 1 / 5;
+    background-color: rgb(137, 140, 142);
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    
+}
+.btn{
+    border-radius: 5px;
+    font-size: 30px;
+}
+.btn:hover{
+    background-color: rgb(158, 155, 155);
+    font-weight: bold;
+}
